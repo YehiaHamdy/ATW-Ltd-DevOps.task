@@ -1,0 +1,25 @@
+# Ignore the node_modules directory (for Node.js projects)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files (e.g., Java, C++)
+*.class
+*.o
+*.so
+
+# Ignore operating system files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Ignore IDE-specific files
+*.iml            # IntelliJ IDEA
+.vscode/         # Visual Studio Code
+
+# Ignore environment files
+.env
+
+# Ignore build directories
+build/
+dist/
